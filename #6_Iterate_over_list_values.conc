@@ -1,0 +1,18 @@
+// Idiom #6 Iterate over list values
+// Do something with each item x of an array-like collection items, regardless indexes.
+
+def do_something(num int) {
+  System.out.println(num)
+}
+
+numbers = [1, 2, 3, 4, 5]
+for (num in numbers) {
+    do_something(num)
+}
+
+// Output:
+// 1
+// 2
+// 3
+// 4
+// 5

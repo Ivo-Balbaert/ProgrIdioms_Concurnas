@@ -2,8 +2,8 @@
 // Print a literal string on standard output
 
 System.out.println('Hello, World from Concurnas!')
+System.out.println("Hello Again.")
 
 // Compile: concc #1_Print_Hello_World.conc
 // Execute: conc #1_Print_Hello_World
-// Output:
-// Hello, World from Concurnas!
+// Output: Hello, World from Concurnas!

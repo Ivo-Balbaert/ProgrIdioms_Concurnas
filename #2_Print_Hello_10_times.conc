@@ -1,0 +1,17 @@
+// Idiom #2 Print Hello 10 times:
+// Loop to execute some code a constant number of times
+
+for (_ in 0 to 10) { System.out.println("Hello") }
+
+/* Output:
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+*/
