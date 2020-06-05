@@ -8,10 +8,7 @@ rnd = new Random(System.currentTimeMillis())
 
 for(num in nums; ix) {
   jx = rnd.nextInt(ix + 1)
-  // haven't found a shorter wat to do the swap
-  temp = nums[ix]
-  nums[ix] = nums[jx]
-  nums[jx] = temp
+  (nums[ix], nums[jx]) = nums[jx], nums[ix]
 }
 
 System.out.println(nums)
