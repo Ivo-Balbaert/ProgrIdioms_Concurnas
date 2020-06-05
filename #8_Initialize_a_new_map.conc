@@ -1,0 +1,16 @@
+// Idiom #8 Initialize a new map (associative array)
+// Declare a new map object x, and provide some (key, value) pairs as initial content.
+
+nums = map()         // type is inferred from usage in following statements
+nums['one'] = 1
+nums['two'] = 2
+System.out.println("{nums['one']}")  // => 1
+                
+nums2 = { 
+    'one'-> 1,
+    'two'-> 2,
+}
+// or:
+nums2 = {'one'-> 1, 'two'-> 2}
+System.out.println(nums2) // => {one=1, two=2}
+ 

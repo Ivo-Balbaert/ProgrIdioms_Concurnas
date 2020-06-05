@@ -1,0 +1,18 @@
+// Idiom #7 Iterate over list indexes and values
+// Print each index i with its value num from an array-like collection items
+
+nums = [1 2 3 4 5]
+for(num in nums; ix) {
+  System.out.println('Item {ix} = {num}')
+}
+
+// Of course: a C-style for loop also works:
+// for(ix = 0; ix < nums.length; ix++){
+//   System.out.println('Item {ix} = {nums[ix]}')
+//}
+// Output:
+// Item 0 = 1
+// Item 1 = 2
+// Item 2 = 3
+// Item 3 = 4
+// Item 4 = 5

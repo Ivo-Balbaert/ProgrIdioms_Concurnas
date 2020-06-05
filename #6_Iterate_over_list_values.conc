@@ -5,8 +5,8 @@ def do_something(num int) {
   System.out.println(num)
 }
 
-numbers = [1, 2, 3, 4, 5]
-for (num in numbers) {
+nums = [1, 2, 3, 4, 5]
+for (num in nums) {
     do_something(num)
 }
 

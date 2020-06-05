@@ -1,0 +1,25 @@
+// Idiom #10 Shuffle a list
+// Generate a random permutation of the elements of list x
+
+from java.util import Random
+
+nums = [1 2 3 4 5]
+rnd = new Random(System.currentTimeMillis())
+
+for(num in nums; ix) {
+  jx = rnd.nextInt(ix + 1)
+  // haven't found a shorter wat to do the swap
+  temp = nums[ix]
+  nums[ix] = nums[jx]
+  nums[jx] = temp
+}
+
+System.out.println(nums)
+
+
+// Output: e.g.
+// 1
+// 3
+// 5
+// 4
+// 2

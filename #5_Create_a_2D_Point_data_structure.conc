@@ -1,7 +1,7 @@
 // Idiom #5 Create a 2D Point data structure
 // Declare a container type for two floating-point numbers x and y
 
-class Point (x double, y double) {}
+class Point (x double, y double) 
 
 p1 = Point(5, 10)
 System.out.println(p1.x)    // => 5.0
