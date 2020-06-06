@@ -1,0 +1,13 @@
+// Idiom #12 Check if list contains a value
+// Check if list contains a value x; list is an iterable finite container.
+
+nums = [1 2 3 4 5]
+x = 7
+if (x in nums)
+  { System.out.println('nums contains {x}') }
+else
+  { System.out.println('nums does not contain {x}') }
+
+// Output:
+// x = 4 - nums contains 4
+// x = 7 - nums does not contain 7

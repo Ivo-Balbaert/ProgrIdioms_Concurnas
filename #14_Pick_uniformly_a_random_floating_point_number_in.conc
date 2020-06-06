@@ -1,0 +1,14 @@
+// Idiom #14 Pick uniformly a random floating point number in [a..b[
+// Pick a random number greater than or equal to a, strictly inferior to b. Precondition : a < b.
+
+from java.util import Random
+
+rnd = new Random(System.currentTimeMillis())
+
+def randPickFloat(a double, b double) double {
+    a + (rnd.nextFloat() * (b - a))
+}
+
+System.out.println(randPickFloat(3.14, 5.16))
+
+// Output e.g.: 4.4461606717109685

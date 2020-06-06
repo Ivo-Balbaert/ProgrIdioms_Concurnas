@@ -1,0 +1,15 @@
+// Idiom #11 Pick a random element from a list
+// List x must be non-empty.
+
+from java.util import Random
+
+nums = [1 2 3 4 5]
+rnd = new Random(System.currentTimeMillis())
+
+def randPick(x int[]) int {  // function has to be defined before it is used
+    x[rnd.nextInt(x.length)]
+}
+
+System.out.println(randPick(nums))
+
+// Output e.g.: 4

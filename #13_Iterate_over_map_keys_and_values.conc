@@ -1,0 +1,12 @@
+// Idiom #13 Iterate over map keys and values
+// Print each key k with its value x from an associative array mymap
+
+nums = {'one'-> 1, 'two'-> 2}
+  
+for (key in nums){ //iteration over map keys
+  System.out.println('item: {key} = {nums[key]}')
+}
+
+// Output:
+// item: one = 1
+// item: two = 2

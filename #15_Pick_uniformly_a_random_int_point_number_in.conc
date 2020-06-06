@@ -1,0 +1,12 @@
+// Idiom #15 Pick uniformly a random integer in [a..b]
+// Pick a random integer greater than or equals to a, inferior or equals to b. Precondition : a < b.
+
+from java.util import Random
+
+rnd = new Random(System.currentTimeMillis())
+
+def randPickInt(a int, b int) int {
+    a + (rnd.nextInt(b - a + 1))
+}
+
+System.out.println(randPickInt(100, 108))   // => e.g. 104
