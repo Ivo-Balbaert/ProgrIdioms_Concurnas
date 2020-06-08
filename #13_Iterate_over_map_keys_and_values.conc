@@ -3,7 +3,7 @@
 
 nums = {'one'-> 1, 'two'-> 2}
   
-for (key in nums){ //iteration over map keys
+for (key in nums) { //iteration over map keys
   System.out.println('item: {key} = {nums[key]}')
 }
 

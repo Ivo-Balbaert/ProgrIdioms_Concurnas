@@ -1,0 +1,7 @@
+// Idiom #23 Convert real number to string with 2 decimal places
+// Given real number x, 
+// create its string representation s with 2 decimal digits following the dot.
+
+x = 3.1415
+s = String.format("%.2f", x)
+System.out.println(s) // => 3.14

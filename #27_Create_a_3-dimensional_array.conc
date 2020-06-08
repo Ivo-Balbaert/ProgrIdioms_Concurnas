@@ -1,0 +1,38 @@
+// Idiom #27 Create a 3-dimensional array
+// Declare and initialize a 3D array x, having dimensions boundaries m, n, p, 
+// and containing real numbers.
+
+m = 3
+n = 4
+p = 2
+
+dim3 = new double[m, n, p](0.0)
+dim3[1][2][1] = 8
+System.out.println(dim3)
+
+/* =>
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+8.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+*/

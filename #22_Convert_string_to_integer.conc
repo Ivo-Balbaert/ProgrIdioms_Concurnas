@@ -1,0 +1,12 @@
+// Idiom #22 Convert string to integer
+// Extract integer value i from its string representation s (in radix 10)
+// '123' -> 123
+
+str = '123'
+System.out.println(str)
+n = Integer(str)   // as int or as Integer gives error: Cannot cast from java.lang.String to int
+System.out.println('{n}')
+
+// Output:
+// 123
+// 123

@@ -1,0 +1,24 @@
+// Idiom #26 Create a 2-dimensional array
+// Declare and initialize a matrix x having m rows and n columns, containing real numbers.
+
+m = 3
+n = 4
+matr1 = new double[m, n](0.0)
+matr1[1][2] = 8
+System.out.println(matr1)
+
+
+/* => 
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+8.0
+0.0
+0.0
+0.0
+0.0
+0.0
+*/

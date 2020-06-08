@@ -1,0 +1,7 @@
+// Idiom #24 Assign to string the japanese word ネコ
+// Declare a new string s and initialize it with the literal value "ネコ" 
+// (which means "cat" in japanese)
+
+s = "ネコ"
+System.out.println(s)  // => ネコ
+// output ?? in cmd window    ?!    (same with '')

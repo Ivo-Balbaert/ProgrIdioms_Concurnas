@@ -1,0 +1,13 @@
+// Idiom #19 Reverse a list
+// Reverse the order of the elements of list x .
+// This may reverse "in-place" and destroy the original ordering.
+
+x = [1, 4, 3, 2, 5, 4, 3, 2]
+x2 = x@ //deep copy of x
+
+xrev = reversed(x)
+System.out.println(x)       // => [1, 4, 3, 2, 5, 4, 3, 2]
+System.out.println(xrev)    // => [2, 3, 4, 5, 2, 3, 4, 1]
+reversed(x, inplace=true)
+System.out.println(x)       // => [2, 3, 4, 5, 2, 3, 4, 1]
+assert(x == xrev)

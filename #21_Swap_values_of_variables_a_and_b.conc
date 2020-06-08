@@ -1,0 +1,7 @@
+// Idiom #21 Swap values of variables a and b
+
+n = 1
+m = 2
+System.out.println('n is {n} and m is {m}')
+(n, m) = m, n
+System.out.println('n is {n} and m is {m}')

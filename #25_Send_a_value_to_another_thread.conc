@@ -1,0 +1,10 @@
+// Idiom #25 Send a value to another thread
+// Share the string value "Alan" with an existing running process 
+// which will then display "Hello, Alan"
+
+def isol(s String) { 
+  System.out.println(s)  // => Alan
+}
+
+str = 'Alan'
+isol(str)!
