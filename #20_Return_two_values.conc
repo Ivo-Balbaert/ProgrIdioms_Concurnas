@@ -5,8 +5,8 @@
 
 def search(m int[][], s int) (bool, int, int) {
     for ( i in m; ix ) {  // error: extraneous input ')' 
-        for ( val in m[ix]; jx ) {
-            if (val == s) {
+        for ( value in m[ix]; jx ) {
+            if (value == s) {
                 return true, ix, jx
             }
         }
@@ -15,7 +15,7 @@ def search(m int[][], s int) (bool, int, int) {
 }
 
 mult = [ 1 2 3 ; 4 5 6 ; 7 8 9 ]
-toSearch = 4
+toSearch = 6
 (a, b, c) = search(mult, toSearch)
 if (a) {
   System.out.println('The number {toSearch} was found on index {b} {c}')
